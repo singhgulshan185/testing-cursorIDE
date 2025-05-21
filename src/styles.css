@@ -1,0 +1,33 @@
+/* Custom styles for the project */
+
+/* Shake animation for collision effect */
+.shake {
+  animation: shake 0.3s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shake {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  15% { transform: translate(-48%, -52%) rotate(-2deg); }
+  30% { transform: translate(-52%, -48%) rotate(2deg); }
+  45% { transform: translate(-48%, -52%) rotate(-2deg); }
+  60% { transform: translate(-52%, -48%) rotate(2deg); }
+  75% { transform: translate(-48%, -52%) rotate(-1deg); }
+  90% { transform: translate(-50%, -50%) rotate(1deg); }
+  100% { transform: translate(-50%, -50%) rotate(0deg); }
+}
+
+/* Pulse animation for the collision text */
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.animate-pulse {
+  animation: pulse 0.8s ease-in-out infinite;
+}
+
+/* Fix for transform in combination with shake */
+.shake-container {
+  transform-origin: center center;
+} 
