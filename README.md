@@ -5,7 +5,7 @@
 
 📹 **[Watch Demo Video](https://drive.google.com/file/d/1KRc_b02rd1FwHA6Cj0dxg-WDc99QwpFJ/view?usp=sharing)**
 
-A lightweight, React-based visual coding platform inspired by MIT Scratch. Built for the Juspay Frontend Challenge.
+A lightweight, React-based visual coding platform inspired by MIT Scratch. Built for educational purposes.
 
 ![Project Screenshot](https://github.com/user-attachments/assets/578453c3-d00e-4914-973d-548b4b0d5472)
 
